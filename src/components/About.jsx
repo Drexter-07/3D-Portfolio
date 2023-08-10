@@ -57,9 +57,9 @@ const About = () => {
      >
 
 
-      I'm skilled software developer with experience in TypeScript and JavaScript, 
-      and expertise in frameworks like React,
-      Node.js, and Three.js. 
+      I'm skilled Software Developer with experience in JavaScript and Blockchain, 
+      and expertise in frameworks like React, Ether and
+      Node.js. 
      </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>

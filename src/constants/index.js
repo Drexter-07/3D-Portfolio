@@ -42,11 +42,11 @@ import {
   
   const services = [
     {
-      title: "Frontend Developer",
+      title: "Fontend Developer",
       icon: web,
     },
     {
-      title: "Web3/Blockchain Developer",
+      title: " Web3 Developer",
       icon: mobile,
     },
     {
@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Technical Content Creator",
       icon: creator,
     },
   ];
@@ -116,16 +116,19 @@ import {
   
   const experiences = [
     {
-      title: "Azure Cloud Trainee Intern",
-      company_name: "Future Ready Talent(Microsoft Azure)",
+      title: "Cloud Training Intern",
+      company_name: "Future Ready Talent (Microsoft)",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "Sept 2021 - Feb 2022",
+      date: "Sep 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Exploring diverse Azure technologies, including:",
+        "Azure Bot Service, Web App Bot, QnA Maker, API App Services",
+        "Created a Disease Chat Assistant Bot",
+        "Organized and integrated Data-sets into a Knowledge Base for QnA Maker training.",
+        "Crafted and executed HTTP Requests via Postman",
+        "Seamless Deployment of the Chatbot on Telegram using Botfather",
+        "Ensured continuous and effective ChatBot operation",
       ],
     },
     {
@@ -135,36 +138,37 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2022 - April 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Engineered an AI-powered B2B invoice management solution in the fintech sector.",
+        "Using Machine Learning models for accurate payment date prediction upon invoice creation.",
+        "Facilitated seamless payment retrieval from clients with overdue invoices.",
+        "Orchestrated proactive reminders and follow-ups to ensure timely payments.",
+        "Tools Used: Machine Learning, ReactJS, HTML, CSS, JDBC, Java, and Servlets",
       ],
     },
     {
-      title: "App Developer",
+      title: "Application Development Intern",
       company_name: "Futurus",
       icon: shopify,
       iconBg: "#383E56",
-      date: "May 2023 - Jun 2023",
+      date: "May 2022 - July 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Played a pivotal role in constructing an innovative interview app that harnessed cutting-edge technologies, including ChatGPT models tailored for IELTS and other significant exams.",
+        "Spearheaded the creation of the speech-to-text functionality, enhancing user experience and accessibility.",
+        "Integral contribution to seamlessly integrating GPT into the interview bot, amplifying user engagement and interaction.",
+        "Utilized an arsenal of tools encompassing Android Studio, Kotlin, and OpenAI's ChatGPT and API.",
       ],
     },
     {
-      title: "Competitive Problem Solver Trainee",
+      title: "AI Training Freelancer",
       company_name: "Scale AI",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jun 2023 - Present",
+      date: "June 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Orchestrated comprehensive AI training by formulating intricate problem-solving methodologies and offering elucidative solutions and coding problem editorials.",
+        "Diligently reviewed and optimized existing code, elevating its quality and efficiency.",
+        "Nurtured AI bot's capabilities by fine-tuning its responses, offering diverse sample prompts, and meticulously crafting solutions across an array of computer science domains.",
+        "Contributed to fostering a more proficient and knowledgeable AI model through hands-on training and refining its interactive capabilities.",
       ],
     },
   ];
@@ -172,93 +176,114 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Winner (2nd Position) at HACKMOREISH (devfolio) 2022 Hackathon. A National Level Hackathon in India",
+      name: "Devfolio",
+      
+      company: "Hackathon Platform and Community",
+      image: "https://media.licdn.com/dms/image/C510BAQGV8mUXTdtlYA/company-logo_200_200/0/1545112612695?e=1699488000&v=beta&t=qleSpj-O84VU9UNEQReFE19MlqobY7vRF8Gj9SCeqPg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Runner up in IPFS/Filecoin category at the Gitcoin L2 Rollathon 2022 hackathon, competing with teams and professionals across the world.",
+      name: "Gitcoin",
+      
+      company: "Incentivizing Open Innovation",
+      image: "https://cryptologos.cc/logos/gitcoin-gtc-logo.png?v=026",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Successfully Completed #30daysofgooglecloud challenge, consisting of various quests and tasks competition.",
+      name: "GCP",
+      
+      company: "Cloud Infrastructure Services",
+      image: "https://media.licdn.com/dms/image/C560BAQFIFLR7jxm2lg/company-logo_200_200/0/1600274556510?e=1699488000&v=beta&t=jEVtb3fXicv9lT9ZeRAuPKW9_rN8QrKchAuQJ9wTep4",
+    },
+    {
+      testimonial:
+        "Successfully Achieved a Micro Grant of $5000 for our Blockchain Project: SkillBlock from Protocol Labs.",
+      name: "Protocol Labs",
+      
+      company: "Decentralized storage solutions",
+      image: "https://media.licdn.com/dms/image/C4D0BAQH2qS_5e-9HPA/company-logo_200_200/0/1590695202006?e=1699488000&v=beta&t=Jv8Yop4nsK1o4fkViJomDvbP_vnGVJwm065frCJZDmE",
+    },
+    {
+      testimonial:
+        "Received accolades and prizes from renowned companies such as Devpost, Chainlink Labs, and Microsoft Azure, recognizing my consistent dedication to participating in diverse events, hackathons, and online cohorts.",
+      
+      name: "Devpost",
+      
+      company: "Hackathons' premier project portal",
+      image: "https://img.icons8.com/?size=512&id=38557&format=png",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Decentralized AirBNB",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Decentralised alternative for AirBNB. Smart contract to store the details of rentals and handle purchase of any new bookings on the blockchain.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "solidity",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Google Maps API",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Drexter-07/AIRBNB-Clone",
     },
     {
-      name: "Job IT",
+      name: "SkillBlock",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A DAO which helps both the public to search and hire nearest laborers/helpers and also the workmen/helpers to register themselves on the site to get rewarded for their service.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "ipfs",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "solidity",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "polygon",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Drexter-07/SkillBlock",
     },
     {
-      name: "Trip Guide",
+      name: "3D-Portfolio",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "3D developer portfolio showcasing my skills in Software Engineering using technologies for immersive graphics, TailwindCSS for styling and Framer Motion for animations.",
       tags: [
         {
-          name: "nextjs",
+          name: "3JS",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "react three fiber",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwind css",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://3d-portfolio-sahil.vercel.app/",
     },
   ];
   

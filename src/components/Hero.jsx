@@ -18,8 +18,11 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff]'>Sahil</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-           Web3 Developer from India.
-           <br className='sm:block hidden'/> Actively contributing to the Web3 community.
+           Software Developer from India.
+           <br className='sm:block hidden'/>CSE '23 graduate, multi-hackathon winner,
+           {/* <br className='sm:block hidden'/>and proactive contributor to software development community, <br className='sm:block hidden'/>actively seeking opportunities. */}
+           <br className='sm:block hidden'/> Actively Learning and Contributing to the Community.
+           
           </p>  
         </div>
       </div>
