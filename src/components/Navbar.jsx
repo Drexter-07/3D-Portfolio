@@ -49,6 +49,7 @@ const Navbar = () => {
           </p>
         </Link>
 
+        {/* Desktop Menu */}
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
@@ -61,8 +62,22 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+
+          {/* ✅ Resume Button Added (Desktop) */}
+          <li>
+            <a
+              href="/Sahil_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+              download={false} // Browser will still show View/Download
+            >
+              View Resume
+            </a>
+          </li>
         </ul>
 
+        {/* Mobile Menu */}
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
@@ -91,6 +106,19 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+
+              {/* ✅ Resume Button Added (Mobile) */}
+              <li>
+                <a
+                  href="/Sahil_Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-secondary hover:text-white text-[16px] font-medium"
+                  download={false}
+                >
+                  View Resume
+                </a>
+              </li>
             </ul>
           </div>
         </div>

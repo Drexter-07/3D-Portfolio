@@ -8,7 +8,6 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
@@ -42,11 +41,11 @@ import {
   
   const services = [
     {
-      title: "Fontend Developer",
+      title: "Frontend Developer",
       icon: web,
     },
     {
-      title: " Web3 Developer",
+      title: " Gen AI Developer",
       icon: mobile,
     },
     {
@@ -54,7 +53,7 @@ import {
       icon: backend,
     },
     {
-      title: "Technical Content Creator",
+      title: "Technical Content Writer",
       icon: creator,
     },
   ];
@@ -79,10 +78,6 @@ import {
     {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
